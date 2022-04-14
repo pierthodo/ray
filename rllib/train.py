@@ -4,6 +4,7 @@ import argparse
 import os
 from pathlib import Path
 import yaml
+import mbrl
 
 import ray
 from ray.tune.config_parser import make_parser
